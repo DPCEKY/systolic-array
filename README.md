@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Yolo Detector Tutorial
 
 This tutorial goes over how to write, build and run the software (C/C++) and Hardware (SDSoC) yolo detector Application.
@@ -22,10 +21,5 @@ pure software flow.
 
 The hardware design can be built by SDSoC. First of all, SDSoC will call Vivado HLS to synthesize the hardware [gemm2] into RTL.
 Then SDSoC will create datamover and wrap up the whole design. This design currently runs well on SDSoC (Vivado) 2017.1.
+For more details of using SDSoC, please refer to UG1028: SDSoC Environment User Guide https://forums.xilinx.com/xlnx/attachments/xlnx/sdsoc/23/2/ug1028-sdsoc-getting-started.pdf
 
-For more details of using SDSoC, please refer to UG1028: SDSoC Environment User Guide
-https://forums.xilinx.com/xlnx/attachments/xlnx/sdsoc/23/2/ug1028-sdsoc-getting-started.pdf
-=======
-# systolic-array
-HLS implemented systolic array structure
->>>>>>> 47f957a72c2a8ea51f38bb3eaedbc86002e0673f
